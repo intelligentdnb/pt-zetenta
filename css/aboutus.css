@@ -1,0 +1,195 @@
+ .aboutus {
+    width: auto;
+}
+
+.aboutus-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 61px 8px 61px;
+}
+
+.aboutus-card {
+    width: 404px;
+    height: 350px;
+    color: var(--theme-color);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+}
+
+.n1 {
+    background: url("../assets/card1bg.png") no-repeat center;
+    background-size: cover;
+}
+.n1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:   rgb(0, 131, 255);
+    opacity: 0.85;
+}
+
+.n2 {
+    background: url("../assets/card2bg.png") no-repeat center;
+    background-size: cover;
+}
+.n2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:   rgb(0, 75, 146);
+    opacity: 0.85;
+}
+
+.n3 {
+    background: url("../assets/card3bg.png") no-repeat center;
+    background-size: cover;
+}
+.n3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(131, 0, 255);
+    opacity: 0.85;
+}
+
+.aboutus-descrip, .aboutus-title{
+    position: relative;
+    z-index: 1;
+}
+.aboutus-title {
+    margin: 40px 34px 30px 30px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.aboutus-descrip {
+    margin: auto 34px 30px 30px;
+    font-size: 16px;
+    font-weight: normal;
+    align-self: flex-end;
+}
+
+.aboutus-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0px 32px 0px;
+}
+
+.aboutus-button button{
+    color: var(--primary-color);
+    width: 194px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: normal;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+}
+
+@media (max-width: 1000px) {
+
+    .aboutus {
+    width: auto;
+}
+
+.aboutus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-card {
+    width: 328px;
+    height: 300px;
+    color: var(--theme-color);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 15px 16px 0px 16px;
+}
+
+.n1 {
+    background: url("../assets/card1bg.png") no-repeat center;
+    background-size: cover;
+}
+.n1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:   rgb(0, 131, 255);
+    opacity: 0.85;
+}
+
+.n2 {
+    background: url("../assets/card2bg.png") no-repeat center;
+    background-size: cover;
+}
+.n2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:   rgb(0, 75, 146);
+    opacity: 0.85;
+}
+
+.n3 {
+    background: url("../assets/card3bg.png") no-repeat center;
+    background-size: cover;
+}
+.n3::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(131, 0, 255);
+    opacity: 0.85;
+}
+
+.aboutus-descrip, .aboutus-title{
+    position: relative;
+    z-index: 1;
+}
+.aboutus-title {
+    margin: 40px 34px 30px 30px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.aboutus-descrip {
+    margin: auto 34px 30px 30px;
+    font-size: 16px;
+    font-weight: normal;
+    align-self: flex-end;
+}
+
+.aboutus-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 21px 0px;
+}
+
+.aboutus-button button{
+    color: var(--primary-color);
+    width: 194px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: normal;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+}
+} 
+

@@ -1,0 +1,38 @@
+.home {
+    background: #001324 url("../assets/homebg.png") no-repeat center;
+    background-size: cover;
+    height: 682px;
+}
+
+.home-container {
+    padding: 290px 271px 255px 166px;
+}
+
+.home-container p{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+
+@media (max-width: 1000px) {
+
+    .home {
+        background: #001324 url("../assets/homebg-mobile.png") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 592px;
+    }
+
+    .home-container {
+        padding: 199px 16px 0px 16px;
+    }
+
+    .home-container p {
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 34px;
+    }
+}

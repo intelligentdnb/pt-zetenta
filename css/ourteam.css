@@ -1,0 +1,132 @@
+.ourteam-title{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 71px;
+    margin-bottom: 0px;
+}
+
+.ourteam-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 61px;
+    margin: 0px 61px 0px 61px;
+}
+
+.ourteam-card{
+    display: flex;
+    gap: 16px;
+    width: 254px;
+    height: 168px;
+    margin-bottom: 70px;
+}
+
+.ourteam-texts{
+    font-weight: medium;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.ourteam-texts h3 {
+    font-weight: medium;
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+
+.ourteam-texts p{
+    margin: 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.ourteam-button{
+    color: var(--primary-color);
+    width: 103px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: normal;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    position: relative;
+    align-self: flex-start;
+}
+
+.ourteam-texts h3,
+.ourteam-texts p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.ourteam-button {
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1000px) {
+    .ourteam-title{
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 71px;
+        margin-bottom: 0px;
+    }
+    
+    .ourteam-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 61px;
+        margin: 0px 61px 0px 61px;
+    }
+    
+    .ourteam-card{
+        display: flex;
+        gap: 16px;
+        width: 254px;
+        height: 168px;
+        margin-bottom: 70px;
+    }
+    
+    .ourteam-texts{
+        font-weight: medium;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
+    
+    .ourteam-texts h3 {
+        font-weight: medium;
+        font-size: 24px;
+        margin-bottom: 9px;
+      }
+    
+    .ourteam-texts p{
+        margin: 0;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .ourteam-button{
+        color: var(--primary-color);
+        width: 103px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: normal;
+        background: transparent;
+        border: 1px solid var(--primary-color);
+        position: relative;
+        align-self: flex-start;
+    }
+    
+    .ourteam-texts h3,
+    .ourteam-texts p {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    
+    .ourteam-button {
+      margin-top: auto;
+      margin-bottom: 5px;
+    }
+    
+}

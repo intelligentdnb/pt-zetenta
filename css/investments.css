@@ -1,0 +1,138 @@
+.investments{
+    background: #0068C8;
+
+}
+.investments-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.investments-card{
+    width: 412px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--theme-color);
+    padding: 0;
+    margin: 110px 0px 110px 0px;
+}
+
+.investments-title, .investments-descrip{
+    font-weight: normal;
+}
+
+.investments-title {
+    margin: 40px 16px auto 24px;
+    font-size: 21px;
+}
+.investments-descrip {
+    margin: 0px 40px 18px 24px;
+    font-size: 14px;
+}
+
+
+.investments-button {
+    
+    margin: 0px 0px 20px 24px;
+}
+
+.investments-button button{
+    color: var(--theme-color);
+    width: 140px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--theme-color);
+    background: rgba(52, 133, 247, 0.30);
+    border: 1px solid var(--theme-color);
+    position: relative;
+}
+
+.ic1 {
+    background: #3484F7;
+}
+
+.ic2 {
+    background: #0083FF;
+}
+
+.ic3 {
+    background: #007AED;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .investments{
+        background: #0068C8;
+    
+    }
+    .investments-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px 40px 0px;
+        gap: 0px;
+    }
+    
+    .investments-card{
+        width: 328px;
+        height: 283px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: var(--theme-color);
+        
+        margin: 0px 0px 0px 0px;
+        padding: 0;
+    }
+    
+    .investments-title, .investments-descrip{
+        font-weight: normal;
+    }
+    
+    .investments-title {
+        margin: 40px 16px auto 16px;
+        font-size: 21px;
+    }
+    .investments-descrip {
+        margin: auto 16px 8px 16px;
+        font-size: 14px;
+    }
+    
+    .investments-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8px 0px 20px 0px;
+    }
+    
+    .investments-button button{
+        color: var(--theme-color);
+        width: 296px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: normal;
+        color: var(--theme-color);
+        background: rgba(52, 133, 247, 0.30);
+        border: 1px solid var(--theme-color);
+        position: relative;
+    }
+    
+    .ic1 {
+        background: #002CFF;
+    }
+    
+    .ic2 {
+        background: #0083FF;
+    }
+    
+    .ic3 {
+        background: #007AED;
+    }
+}
