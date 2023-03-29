@@ -59,21 +59,26 @@
     
 
     .footer-logo{
+        margin-top: 40px;
         margin-bottom: 32px;
     }
-    .footer-menu {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        list-style: none;
-        justify-content: center;
-        align-items: center;
+    
+    .row1, .row2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
+    .footer-menu{
+        margin: 0;
+        padding: 0;
+        margin-left: 23px;
+        
+    }
 
     .footer-menu a{
         color: var(--theme-color);
         text-decoration: none;
-        
     }
     
     .linkedin-logo {

@@ -117,7 +117,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 15px 16px 0px 16px;
+    margin: 0px 16px 0px 16px;
 }
 
 .n1 {
@@ -164,12 +164,12 @@
     z-index: 1;
 }
 .aboutus-title {
-    margin: 40px 34px 30px 30px;
+    margin: 40px auto auto 20px;
     font-size: 24px;
     font-weight: normal;
 }
 .aboutus-descrip {
-    margin: auto 34px 30px 30px;
+    margin: auto 20px 20px 20px;
     font-size: 16px;
     font-weight: normal;
     align-self: flex-end;
