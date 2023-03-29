@@ -15,10 +15,16 @@
 
 .ourteam-card{
     display: flex;
+    flex-direction: column;
     gap: 16px;
     width: 254px;
     height: 168px;
     margin-bottom: 70px;
+}
+
+.ourteam-card-descrip{
+    display: flex;
+    gap: 16px;
 }
 
 .ourteam-texts{
@@ -39,6 +45,13 @@
     color: rgba(0, 0, 0, 0.6);
 }
 
+.ourteam-btn-container{
+    display: flex;
+    align-self: flex-end;
+    padding: 0;
+    margin-right: 45px;
+}
+
 .ourteam-button{
     color: var(--primary-color);
     width: 103px;
@@ -48,7 +61,7 @@
     background: transparent;
     border: 1px solid var(--primary-color);
     position: relative;
-    align-self: flex-start;
+    
 }
 
 .ourteam-texts h3,
@@ -75,8 +88,8 @@
         margin: 0;
         padding: 0;
         display: grid;
-        grid-gap: 29px;
         grid-template-columns: repeat(2, 1fr);
+        gap: 17px;
         padding-left: 16px;
         padding-bottom: 40px;
     }
@@ -86,15 +99,21 @@
         padding: 0;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         width: 149px;
         height: 246px;
     }
     
+    .ourteam-card-descrip{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .ourteam-texts{
         font-weight: medium;
         display: flex;
         flex-direction: column;
-        gap: 9px;
         margin: 0;
         padding: 0;
     }
@@ -108,7 +127,18 @@
         font-size: 14px;
         color: rgba(0, 0, 0, 0.6);
     }
-    
+    .ourteam-btn-container{
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .ourteam-btn-container{
+        display: flex;
+        align-self:flex-start;
+        padding: 0;
+        margin-right: 10px;
+    }
+
     .ourteam-button{
         color: var(--primary-color);
         width: 103px;
@@ -117,20 +147,6 @@
         font-weight: normal;
         background: transparent;
         border: 1px solid var(--primary-color);
-        position: relative;
-        align-self: flex-start;
-        margin-bottom: auto;
-    }
-    
-    .ourteam-texts h3,
-    .ourteam-texts p {
-      margin-top: 0;
-      margin-bottom: 5px;
-    }
-    
-    .ourteam-button {
-      margin-top: auto;
-      margin-bottom: 5px;
     }
     
 }
