@@ -27,7 +27,8 @@
 .footer-menu a{
     color: var(--theme-color);
     text-decoration: none;
-    
+    font-size: 14px;
+
 }
 
 .linkedin-logo {
@@ -46,6 +47,7 @@
         width: 100%;
         background: #001C37;
         display: flex;
+        gap: 0;
         flex-direction: column;
     }
     
@@ -53,12 +55,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;    
-        height: auto;
     }
     
 
     .footer-logo{
-        margin-top: 40px;
         margin-bottom: 32px;
     }
     .footer-menu {
@@ -77,32 +77,15 @@
     }
     
     .linkedin-logo {
+        width: 78px;
+        height: 19px;
         margin-top: 40px;
+        margin-bottom: 40px;
     }
     
     
     .reg {
         color: rgba(255, 255, 255, 0.6)
+        
     }
 }
-
-/* .footer-nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-logo{
-        margin-top: 32px;
-        margin-bottom: 32px;
-    }
-
-    .footer-menu{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .linkedin-logo{
-        margin-top: 40px;
-    } */
