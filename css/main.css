@@ -9,6 +9,7 @@ body {
     width: 100%;
     max-width: 1366px;
     margin: 0 auto;
+    overscroll-behavior: none;
 }
 
 @media (max-width: 1000px){

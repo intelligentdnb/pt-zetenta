@@ -5,6 +5,7 @@
     width: 100%;
     max-width: 1700px;
     transition: transform 0.3s ease-in-out;
+    overscroll-behavior: none;
 }
 
 .header.hide {
