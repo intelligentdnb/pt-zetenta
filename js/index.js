@@ -11,3 +11,12 @@ window.onscroll = function() {
   }
   prevScrollPos = currentScrollPos;
 };
+
+const button = document.getElementById('aboutus-btn-change');
+const isMobile = /Mobile/.test(navigator.userAgent);
+
+if (isMobile) {
+  button.innerHTML = 'Read more';
+} else {
+  button.innerHTML = 'More about us';
+}
