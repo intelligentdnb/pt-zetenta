@@ -399,7 +399,13 @@
         </div>
     </section>
 
-
+<script>
+    if (/Mobile/.test(navigator.userAgent)) {
+  document.getElementById('aboutus-btn-change').innerHTML = 'Read more';
+} else {
+  document.getElementById('aboutus-btn-change').innerHTML = 'More about us';
+}
+</script>
 </body>
 
 </html>
